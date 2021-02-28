@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:hgl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".viewgroup.flowview.FlowLayoutActivity">
+
+    <com.sunofbeach.customview.viewgroup.flowview.FlowView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/flowView"
+        android:padding="5dp"
+        hgl:itemHorizontalMargin = "5dp"
+        hgl:itemVerticalMargin = "5dp"
+        hgl:maxLine = "8"
+        hgl:textColor = "#16ABE1"
+        hgl:textMaxLength = "-1"
+        >
+    </com.sunofbeach.customview.viewgroup.flowview.FlowView>
+
+</LinearLayout>

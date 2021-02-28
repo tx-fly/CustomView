@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/inputNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数字输入框"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/number_key_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数字键盘"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录界面"/>
+
+    <Button
+        android:id="@+id/flowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="ViewGroup实现搜索界面"/>
+    <Button
+        android:id="@+id/KeyPadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="ViewGroup实现键盘界面"/>
+    <Button
+        android:id="@+id/SlideMenuView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="ViewGroup实现侧滑界面"/>
+    <Button
+        android:id="@+id/WatchFaceView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="View实现表盘"/>
+
+
+</LinearLayout>

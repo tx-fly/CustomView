@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--第一行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/number1"
+            style="@style/NumberKeyPad"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/number2"
+            style="@style/NumberKeyPad"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/number3"
+            style="@style/NumberKeyPad"
+            android:text="3" />
+    </LinearLayout>
+
+    <!--第二行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/number4"
+            style="@style/NumberKeyPad"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/number5"
+            style="@style/NumberKeyPad"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/number6"
+            style="@style/NumberKeyPad"
+            android:text="6" />
+    </LinearLayout>
+
+    <!--第三行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/number7"
+            style="@style/NumberKeyPad"
+            android:text="7" />
+
+        <TextView
+            android:id="@+id/number8"
+            style="@style/NumberKeyPad"
+            android:text="8" />
+
+        <TextView
+            android:id="@+id/number9"
+            style="@style/NumberKeyPad"
+            android:text="9" />
+    </LinearLayout>
+
+    <!--第四行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/number0"
+            style="@style/NumberKeyPad"
+            android:background="@drawable/selector_num_key_pad"
+            android:text="0" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:src="@mipmap/delete"
+            android:padding="5dp"
+            android:background="@drawable/selector_num_key_pad"
+            android:text="删除" />
+
+    </LinearLayout>
+
+</LinearLayout>

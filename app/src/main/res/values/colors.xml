@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#BB86FC</color>
+
+<!--    修改标题栏颜色，主题颜色-->
+    <color name="purple_500">#212624</color>
+<!--    修改最顶部颜色-->
+    <color name="purple_700">#009EB3</color>
+
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_grey">#888585</color>
+    <color name="key_item_color">#C2000000</color>
+    <color name="key_text_color">#fff</color>
+    <color name="key_item_press_color">#C62828</color>
+
+<!--    WatchFaceViewColor-->
+    <color name="secondColorDefault">#ff0000</color>
+    <color name="minColorDefault">#136DEB</color>
+    <color name="hourColorDefault">#D9C920</color>
+    <color name="scaleColorDefault">#FFFFFF</color>
+
+</resources>
